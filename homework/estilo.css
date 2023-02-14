@@ -1,0 +1,96 @@
+* {
+  margin: 100;
+  padding: 100;
+  box-sizing: border-box;
+}
+
+#titulo {
+  font-family: sans-serif;
+  color: black;
+  margin-left: 7%;
+}
+
+#subtitulo {
+  font-family: sans-serif;
+  color: #380b61;
+  margin-left: 10%;
+}
+
+#check {
+  display: inline-block;
+}
+
+fieldset {
+  border: 0;
+}
+
+body {
+  background-color: #eee8aa;
+  font-family: sans-serif;
+  font-size: 1em;
+  color: black;
+  margin-left: 36%;
+  margin-top: 2%;
+  justify-content: center;
+}
+
+.grupo:before,
+.grupo::after {
+  display: table;
+}
+
+.grupo:after {
+  clear: both;
+}
+
+.campo {
+  margin-bottom: 1em;
+}
+
+.campo label {
+  margin-bottom: 0, 2em;
+  color: firebrick;
+  display: block;
+}
+
+fieldset.grupo .campo {
+  float: left;
+  margin-right: 1em;
+}
+
+.campo select option {
+  padding-right: 1em;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+  background: #e0e0f8;
+}
+
+.campo input[type="text"],
+.campo input[type="email"] {
+  padding: 02em;
+  border: 1px solid #6272a4;
+  box-shadow: 2px 2px 2px hotpink (0, 0, 0, 0, 2);
+  display: block;
+}
+
+button {
+  background: #380b61;
+  color: #fff;
+  padding: 0.6rem;
+  margin-top: 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+.botao:hover {
+  background: magenta;
+  box-shadow: inset 2px 2px 2px black (0, 0, 0, 0.2);
+  text-shadow: none;
+}
+.botao,
+select {
+  cursor: pointer;
+}
